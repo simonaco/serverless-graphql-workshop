@@ -10,9 +10,9 @@ This is a serverless API with two endpoints:
 
 1. Fork and clone the repository in your local
 
-1. Open the services folder in VS Code
+1. ⚠️ Open the *services* folder in VS Code
 
-1. In VS Code, go to the Azure icon on the left hand side panel and in the Functions extension click on *Create new project* icon to initialize a new function app
+1. In VS Code, go to the Azure icon on the left hand side panel and in the Functions extension click on *Create new project* icon to initialize a new function app. *Overwrite all existing settings*
 
 1. Create a new [Azure Cosmos DB](https://aka.ms/portal-nceu18) account using MongoDB API model. Create a database called *admin* and a collection called *Team*
 
@@ -64,12 +64,11 @@ npm install
   {
     "id": "1",
     "name": "red",
-    "points": 11912,
-    "score": 2
+    "points": 0
   },
   {
     "id": "2",
-    "name": "green",
+    "name": "blue",
     "points": 19113
   }
 ]
@@ -82,6 +81,8 @@ npm install
 1. Copy the url listed in the logs and open it in the browser to call your newly created function. i.e [https://<your_function_name>.azurewebsites.net/api/score](https://<your_function_name>.azurewebsites.net/api/score)
 
 *NOTE*: the link in the logs will give you a url that contains the Function name (i.e. GetScore); we configured our routes to custom ones in function.json (score & score/id)
+
+### More resources
 
 1. To learn more about Azure Functions checkout this awesome docs [page](https://aka.ms/functions-nceu18)
 
