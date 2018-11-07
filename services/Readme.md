@@ -14,7 +14,7 @@ This is a serverless API with two endpoints:
 
 1. In VS Code, go to the Azure icon on the left hand side panel and in the Functions extension click on *Create new project* icon to initialize a new function app
 
-1. Create a new [Azure Cosmos DB](https://aka.ms/cosmos-nceu18) instance using MongoDB API model. Create a database called *admin* and a collection called *Team*
+1. Create a new [Azure Cosmos DB](https://aka.ms/portal-nceu18) account using MongoDB API model. Create a database called *admin* and a collection called *Team*
 
 1. Rename local.settings.example.json to local.settings.json and replace contents with your CosmosDB settings. You can get the connection settings from the Azure portal - Settings -> Connection String
 
@@ -57,3 +57,11 @@ npm install
   }
 ]
 ```
+
+1. Final step, deploy your API to the clouds ☁️☁️! Using VS Code, click on the Azure icon on the left menu and in the Functions extension click the blue arrow button to deploy your function to the cloud. Follow steps displayed in the prompt to eitehr create a new function or deploy to an existing one.
+
+1. Copy the url listed in the logs and open it in the browser to call your newly created function. i.e [https://<your_function_name>.azurewebsites.net/api/score](https://<your_function_name>.azurewebsites.net/api/score)
+
+1. To learn more about Azure Functions checkout this awesome docs [page](https://aka.ms/functions-nceu18)
+
+1. To learn more about Azure Cosmos DB checkout this awesome docs [page](https://aka.ms/cosmos-nceu18)
