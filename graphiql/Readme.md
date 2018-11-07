@@ -23,4 +23,6 @@ Steps:
 }
 ```
 
+1. To learn more about GraphiQL go to [GraphiQL](https://github.com/graphql/graphiql)
 1. To learn more about proxies go to [Azure Proxies](https://docs.microsoft.com/en-us/azure/azure-functions/functions-proxies/?WT.mc_id=workshop-nodeconf-sicotin)
+
