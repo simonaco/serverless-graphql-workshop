@@ -2,12 +2,16 @@
 
 ## Steps:
 
-1. Go to *graphiql* and open *index.html*
+1. ⚠️ Go to *graphiql* and open *index.html*
 1. Replace the URL in graphQLFetcher function with your own GraphQL endpoint URL [https://<your_function_url>/api/graphql](https://<your_function_url>/api/graphql)
 
 1. In the [Azure Portal](https://aka.ms/portal-nceu18) navigate to functions, click on the graphql function. From there, click on the *Platform features* tab -> API -> CORS and add your url as allowed origin
 
-1. Run locally - use a local http server (i.e. http-server)
+1. Run locally - use a local http server (i.e. http-server). If you don't have one installed:
+
+```
+npm i -g http-server
+```
 
 ### Extra steps
 
@@ -41,5 +45,6 @@
 ### More resouces
 
 1. To learn more about GraphiQL go to [GraphiQL](https://github.com/graphql/graphiql)
-1. To learn more about proxies go to [Azure Proxies](https://docs.microsoft.com/en-us/azure/azure-functions/functions-proxies/?WT.mc_id=workshop-nodeconf-sicotin)
+
+1. To learn more about proxies go to [Azure Proxies](https://aka.ms/proxies-nceu18)
 
