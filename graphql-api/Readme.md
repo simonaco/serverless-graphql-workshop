@@ -18,10 +18,10 @@ npm install
 
 1. Go to *Debug* panel in VS Code and click run
 
-1. Using Postman (or any Rest client) make a POST request to your GraphQL endpoint with this body:
+1. Using Postman (or any Rest client) make a POST request to your GraphQL endpoint running in your local [http://localhost:7071/api/graphql](http://localhost:7071/api/graphql) with this body of type *application/json*:
 
 ```json
-{ query: "{teams{id name points}}"}
+{ "query": "{teams{id name points}}"}
 ```
 
 1. If you have deployed your previous services to Azure, replace the URLs in index.js with your own
