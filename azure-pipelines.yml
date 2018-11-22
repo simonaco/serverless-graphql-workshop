@@ -3,16 +3,18 @@ pool:
 steps:
   - script: |
       npm install
-    displayName: "npm install"
-    workingDirectory: "$(System.DefaultWorkingDirectory)/services"
+    displayName: 'npm install'
+    workingDirectory: '$(System.DefaultWorkingDirectory)/services'
   - task: ArchiveFiles@2
-    displayName: "Archive files"
+    displayName: 'Archive files'
+    workingDirectory: '$(System.DefaultWorkingDirectory)/services'
     inputs:
-      rootFolderOrFile: "$(System.DefaultWorkingDirectory)"
+      rootFolderOrFile: '$(System.DefaultWorkingDirectory)'
       includeRootFolder: false
-      archiveFile: "$(System.DefaultWorkingDirectory)/$(Build.BuildId).zip"
+      archiveFile: '$(System.DefaultWorkingDirectory)/$(Build.BuildId).zip'
   - task: PublishBuildArtifacts@1
-    displayName: "Publish files"
+    displayName: 'Publish files'
+    workingDirectory: '$(System.DefaultWorkingDirectory)/services'
     inputs:
       PathtoPublish: '$(System.DefaultWorkingDirectory)'
       name: 'drop'
