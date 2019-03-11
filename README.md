@@ -4,7 +4,7 @@ In this workshop we'll build a Serverless GraphQL endpoint for an existing votin
 
 ## Prerequisites
 
-1. A recent version of Node (8+)
+1. A recent version of [Node](https://nodejs.org/en/download) (8+)
 
 1. [VS Code](https://code.visualstudio.com/download/?WT.mc_id=graphqlworkshop-github-sicotin)  
 
