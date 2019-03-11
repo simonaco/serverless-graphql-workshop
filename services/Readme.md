@@ -14,7 +14,7 @@ This is a serverless API with two endpoints:
 
 1. In VS Code, go to the Azure icon on the left hand side panel and in the Functions extension click on *Create new project* icon to initialize a new function app. *Overwrite all existing settings*
 
-1. Create a new [Azure Cosmos DB](https://aka.ms/portal-nceu18) account using MongoDB API model. Create a database called *admin* and a collection called *Team*
+1. Create a new [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/?WT.mc_id=graphqlworkshop-github-sicotin) account using MongoDB API model. Create a database called *admin* and a collection called *Team*
 
 1. Populate your collection with a couple of items. In *Data Explorer* -> *admin* -> *Team* -> *Documents* add new entries to retrieve later:
 
@@ -84,6 +84,6 @@ npm install
 
 ### More resources
 
-1. To learn more about Azure Functions checkout this awesome docs [page](https://aka.ms/functions-nceu18)
+1. To learn more about Azure Functions checkout this awesome docs [page](https://docs.microsoft.com/azure/azure-functions/?WT.mc_id=graphqlworkshop-github-sicotin)
 
-1. To learn more about Azure Cosmos DB checkout this awesome docs [page](https://aka.ms/cosmos-nceu18)
+1. To learn more about Azure Cosmos DB checkout this awesome docs [page](https://docs.microsoft.com/azure/cosmos-db/?WT.mc_id=graphqlworkshop-github-sicotin)
