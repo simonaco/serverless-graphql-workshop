@@ -1,5 +1,7 @@
 # GraphiQL is an in-browser IDE for exploring GraphQL
 
+Example GraphiQL endpoint: https://graphqlplayground.azurewebsites.net/api/graphiql
+
 ## Steps:
 
 1. ⚠️ Go to *graphiql* and open *index.html*
