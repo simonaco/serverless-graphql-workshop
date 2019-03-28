@@ -22,6 +22,36 @@ In this workshop we'll build a Serverless GraphQL endpoint for an existing votin
 
 1. Add GraphiQL UI using steps in [readme](https://github.com/simonaco/serverless-graphql-workshop/blob/master/graphiql/Readme.md)
 
+## Demo app
+
+GraphQL endpoint: [https://graphqlplayground.azurewebsites.net/api/graphql](https://graphqlplayground.azurewebsites.net/api/graphql)
+
+GraphiQL endpoint:
+[https://graphqlplayground.azurewebsites.net/api/graphiql](https://graphqlplayground.azurewebsites.net/api/graphiql)
+
+Sample query:
+
+```
+query {
+  teams {
+    id
+    name
+    points
+  }
+}
+```
+
+Sample mutation:
+
+```
+mutation {
+  incrementPoints(id:2) {
+    id
+    name
+    points
+  }
+}
+```
 ---
 
 🎉 Congrats!! You made it - built your very first GraphQL endpoint on Serverless! 🎉
