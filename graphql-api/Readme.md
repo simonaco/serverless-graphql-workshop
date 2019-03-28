@@ -37,9 +37,17 @@ This will start our Azure functions server in the terminal and it will tell us a
 
 #### Query
 
-Normally your port `7071` should be free, but if it's not try `7072`.
+Normally your port `7071` should be free, that's the port Azure Functions normally start at, if it isn't, for some reason, then please go into `package.json` and change the `npm start` value from:
 
-1. Using [Postman](https://www.getpostman.com/) (or any Rest client) make a POST request to your GraphQL endpoint running in your local [http://localhost:7072/api/graphql](http://localhost:7071/api/graphql) with this body of type *application/json*:
+```
+func host start
+```
+TO
+```
+func host start --port 7072
+```
+
+1. Using [Postman](https://www.getpostman.com/) (or any Rest client) make a POST request to your GraphQL endpoint running in your local [http://localhost:7071/api/graphql](http://localhost:7071/api/graphql) with this body of type *application/json*:
 
 ```json
 { "query": "{teams{id name points}}"}
