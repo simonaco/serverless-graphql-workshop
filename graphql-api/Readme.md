@@ -37,7 +37,9 @@ This will start our Azure functions server in the terminal and it will tell us a
 
 #### Query
 
-1. Using [Postman](https://www.getpostman.com/) (or any Rest client) make a POST request to your GraphQL endpoint running in your local [http://localhost:7071/api/graphql](http://localhost:7071/api/graphql) with this body of type *application/json*:
+Normally your port `7071` should be free, but if it's not try `7072`.
+
+1. Using [Postman](https://www.getpostman.com/) (or any Rest client) make a POST request to your GraphQL endpoint running in your local [http://localhost:7072/api/graphql](http://localhost:7071/api/graphql) with this body of type *application/json*:
 
 ```json
 { "query": "{teams{id name points}}"}
