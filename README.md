@@ -2,6 +2,10 @@
 
 In this workshop we'll build a Serverless GraphQL endpoint for an existing voting API.
 
+## slides
+
+[Build Scalable APIs Using GraphQL and Serverless](https://www.slideshare.net/SimonaCotin/build-scalable-apis-using-graphql-and-serverless-172329195)
+
 ## Prerequisites
 
 1. A recent version of [Node](https://nodejs.org/en/download) (8+)
