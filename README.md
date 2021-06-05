@@ -10,13 +10,13 @@ In this workshop we'll build a Serverless GraphQL endpoint for an existing votin
 
 1. A recent version of [Node](https://nodejs.org/en/download) (8+)
 
-1. [VS Code](https://code.visualstudio.com/download/?WT.mc_id=graphqlworkshop-github-sicotin)  
+1. [VS Code](https://code.visualstudio.com/download/?WT.mc_id=startup-0000-sicotin)  
 
-1. [Azure Functions CLI](https://docs.microsoft.com/azure/azure-functions/functions-run-local?WT.mc_id=graphqlworkshop-github-sicotin)
+1. [Azure Functions CLI](https://docs.microsoft.com/azure/azure-functions/functions-run-local?WT.mc_id=startup-0000-sicotin)
 
-1. [Azure Functions Extension for VS Code](https://marketplace.visualstudio.com/items/?WT.mc_id=graphqlworkshop-github-sicotin&itemName=ms-azuretools.vscode-azurefunctions)  
+1. [Azure Functions Extension for VS Code](https://marketplace.visualstudio.com/items/?WT.mc_id=startup-0000-sicotin&itemName=ms-azuretools.vscode-azurefunctions)  
 
-1. [Free Azure Account](https://azure.microsoft.com/en-us/free/?wt.mc_id=graphqlworkshop-github-sicotin)
+1. [Free Azure Account](https://azure.microsoft.com/free/?WT.mc_id=startup-0000-sicotin)
 
 ## Steps
 
